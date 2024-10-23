@@ -7,7 +7,6 @@ import { Construct } from "constructs";
 
 export interface AppsConfig {
   project: string;
-  githubAppId: number;
 
   curiostack: CurioStack;
 }
@@ -16,16 +15,16 @@ export class Apps extends Construct {
   constructor(scope: Construct, config: AppsConfig) {
     super(scope, "apps");
 
-    const frontendServer = new CurioStackService(this, {
-      name: "frontend-server",
+    const aiceoServer = new CurioStackService(this, {
+      name: "aiceo-server",
       public: true,
       curiostack: config.curiostack,
     });
 
-    new ProjectIamMember(this, "frontend-server-firestore", {
+    new ProjectIamMember(this, "aiceo-server-firestore", {
       project: config.project,
       role: "roles/datastore.user",
-      member: frontendServer.serviceAccount.member,
+      member: aiceoServer.serviceAccount.member,
     });
   }
 }

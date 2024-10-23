@@ -6,6 +6,7 @@ import { RandomProvider } from "@cdktf/provider-random/lib/provider";
 import { CurioStack } from "@curioswitch/cdktf-constructs";
 import { GcsBackend, TerraformStack } from "cdktf";
 import type { Construct } from "constructs";
+import { Apps } from "./apps.js";
 import { Database } from "./database.js";
 import { Dns } from "./dns.js";
 import { Hosting } from "./hosting.js";
@@ -81,6 +82,11 @@ export class AiCeoStack extends TerraformStack {
     new ProjectService(this, "aiplatform", {
       project: config.project,
       service: "aiplatform.googleapis.com",
+    });
+
+    new Apps(this, {
+      project: config.project,
+      curiostack,
     });
   }
 }
