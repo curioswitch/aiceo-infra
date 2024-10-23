@@ -22,7 +22,7 @@ importers:
         version: 11.0.2(cdktf@0.20.8(constructs@10.3.0))(constructs@10.3.0)
       '@curioswitch/cdktf-constructs':
         specifier: github:curioswitch/cdktf-constructs#main
-        version: https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/ce30b6c22a5bd2671470777946ad15cee005c160
+        version: https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/7a28fb2d7a4c2bbf781cc6f398156dd0398ab963
       cdktf:
         specifier: ^0.20.8
         version: 0.20.8(constructs@10.3.0)
@@ -384,8 +384,8 @@ packages:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
     engines: {node: '>=12'}
 
-  '@curioswitch/cdktf-constructs@https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/ce30b6c22a5bd2671470777946ad15cee005c160':
-    resolution: {tarball: https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/ce30b6c22a5bd2671470777946ad15cee005c160}
+  '@curioswitch/cdktf-constructs@https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/7a28fb2d7a4c2bbf781cc6f398156dd0398ab963':
+    resolution: {tarball: https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/7a28fb2d7a4c2bbf781cc6f398156dd0398ab963}
     version: 0.0.1
     engines: {node: '>=18.0'}
 
@@ -3357,7 +3357,7 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.9
     optional: true
 
-  '@curioswitch/cdktf-constructs@https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/ce30b6c22a5bd2671470777946ad15cee005c160':
+  '@curioswitch/cdktf-constructs@https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/7a28fb2d7a4c2bbf781cc6f398156dd0398ab963':
     dependencies:
       '@cdktf/provider-github': 14.3.0(cdktf@0.20.8(constructs@10.3.0))(constructs@10.3.0)
       '@cdktf/provider-google': 13.30.0(cdktf@0.20.8(constructs@10.3.0))(constructs@10.3.0)
