@@ -22,7 +22,7 @@ importers:
         version: 11.0.2(cdktf@0.20.8(constructs@10.3.0))(constructs@10.3.0)
       '@curioswitch/cdktf-constructs':
         specifier: github:curioswitch/cdktf-constructs#main
-        version: https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/21c6f9fb77305f6affd3e568543076be27558190
+        version: https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/ce30b6c22a5bd2671470777946ad15cee005c160
       cdktf:
         specifier: ^0.20.8
         version: 0.20.8(constructs@10.3.0)
@@ -384,8 +384,8 @@ packages:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
     engines: {node: '>=12'}
 
-  '@curioswitch/cdktf-constructs@https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/21c6f9fb77305f6affd3e568543076be27558190':
-    resolution: {tarball: https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/21c6f9fb77305f6affd3e568543076be27558190}
+  '@curioswitch/cdktf-constructs@https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/ce30b6c22a5bd2671470777946ad15cee005c160':
+    resolution: {tarball: https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/ce30b6c22a5bd2671470777946ad15cee005c160}
     version: 0.0.1
     engines: {node: '>=18.0'}
 
@@ -811,8 +811,8 @@ packages:
     resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
     engines: {node: '>=0.4.0'}
 
-  acorn@8.12.1:
-    resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
+  acorn@8.13.0:
+    resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -2736,8 +2736,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.7.0-dev.20241009:
-    resolution: {integrity: sha512-NhJGDOqw0Wef3qCmG1yVVOHfZu365OED2CQvqFRIR1AXSirHf2Z/uGKjACdmrvm97IQpuszvQL15yaXwydCIVg==}
+  typescript@5.7.0-dev.20241022:
+    resolution: {integrity: sha512-Z8PXMDow1rJGCzBQ9FEeNQHBDEGwqSMAlaM00C9qn/DlUH7DC5dS/pNNEcrQBktPbbIwOjR4XuXYOddJUH2klQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -3357,7 +3357,7 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.9
     optional: true
 
-  '@curioswitch/cdktf-constructs@https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/21c6f9fb77305f6affd3e568543076be27558190':
+  '@curioswitch/cdktf-constructs@https://codeload.github.com/curioswitch/cdktf-constructs/tar.gz/ce30b6c22a5bd2671470777946ad15cee005c160':
     dependencies:
       '@cdktf/provider-github': 14.3.0(cdktf@0.20.8(constructs@10.3.0))(constructs@10.3.0)
       '@cdktf/provider-google': 13.30.0(cdktf@0.20.8(constructs@10.3.0))(constructs@10.3.0)
@@ -3899,10 +3899,10 @@ snapshots:
 
   acorn-walk@8.3.4:
     dependencies:
-      acorn: 8.12.1
+      acorn: 8.13.0
     optional: true
 
-  acorn@8.12.1:
+  acorn@8.13.0:
     optional: true
 
   address@1.2.2: {}
@@ -4429,7 +4429,7 @@ snapshots:
     dependencies:
       semver: 7.6.1
       shelljs: 0.8.5
-      typescript: 5.7.0-dev.20241009
+      typescript: 5.7.0-dev.20241022
 
   eastasianwidth@0.2.0: {}
 
@@ -6128,7 +6128,7 @@ snapshots:
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
       '@types/node': 20.12.10
-      acorn: 8.12.1
+      acorn: 8.13.0
       acorn-walk: 8.3.4
       arg: 4.1.3
       create-require: 1.1.1
@@ -6190,7 +6190,7 @@ snapshots:
 
   typescript@5.4.5: {}
 
-  typescript@5.7.0-dev.20241009: {}
+  typescript@5.7.0-dev.20241022: {}
 
   unbox-primitive@1.0.2:
     dependencies:
