@@ -33,7 +33,10 @@ export class Apps extends Construct {
       roleId: "aiPredictor",
       title: "AI Predictor",
       description: "Permission to perform predictions with managed AI models.",
-      permissions: ["aiplatform.endpoints.predict"],
+      permissions: [
+        "aiplatform.endpoints.predict",
+        "aiplatform.cachedContents.create",
+      ],
     });
 
     new ProjectIamMember(this, "aiceo-server-vertexai", {
